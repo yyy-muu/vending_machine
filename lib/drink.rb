@@ -1,9 +1,8 @@
 class Drink
-  attr_accessor :name, :price, :quantity
+  attr_accessor :name, :price
 
-  def initialize(name, price, quantity)
+  def initialize(name, price)
     @name = name
     @price = price
-    @quantity = quantity
   end
 end
